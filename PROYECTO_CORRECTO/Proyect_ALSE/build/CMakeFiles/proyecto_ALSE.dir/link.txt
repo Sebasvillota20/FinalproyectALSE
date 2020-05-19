@@ -1,1 +1,0 @@
-/usr/bin/g++    -rdynamic CMakeFiles/proyecto_ALSE.dir/app.cpp.o CMakeFiles/proyecto_ALSE.dir/db_local.cpp.o CMakeFiles/proyecto_ALSE.dir/usuario.cpp.o CMakeFiles/proyecto_ALSE.dir/paciente.cpp.o CMakeFiles/proyecto_ALSE.dir/proyecto_ALSE_autogen/mocs_compilation.cpp.o  -o proyecto_ALSE -lsqlite3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5 
