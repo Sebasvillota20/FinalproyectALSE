@@ -36,7 +36,6 @@ bool Db_local::guardad_Datos_test(Datos_test &dat){
     sql <<"INSERT INTO prueba (doc, minuto, segundo, estado, pocision) VALUES (";
     sql << dat.get_Doc() << "," << dat.get_Min() << "," << dat.get_Seg() << ",'" << dat.get_State() << "',"<< dat.get_Pos();
     sql << ");";
-    std::cout << sql.str() << std::endl;
     /* Execute SQL statement */
     rc = sqlite3_exec(db, sql.str().c_str(), 0, 0, &zErrMsg);
 

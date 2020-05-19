@@ -68,9 +68,7 @@ void main_app::recibo_Datos(int time_prueba, double pac){
 
 void main_app::cerrarprueba(){
    _db.cerrarDB();
-   cout << endl << "CIERRAAA" << endl ;
     close();
-
 }
 
 void main_app::Exect(){
@@ -91,7 +89,6 @@ void main_app::apagarboton(){
     if(_db.abrirDB("base.db")==true){
         _db.guardad_Datos_test(_data);       
     }
-    cout << (getTiempo()) << "   "<< ((_data.get_Seg()+1)*1000)<< endl;
     if(getTiempo() == ((_data.get_Seg()+1)*1000))
     {
         main_app::disconnect(retardo, &QTimer::timeout, this, &main_app::apagarboton);
