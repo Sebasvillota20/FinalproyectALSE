@@ -1,4 +1,0 @@
-/home/alseuser/Escritorio/PROYECTO_CORRECTO/Proyect_ALSE/build/proyecto_ALSE_gui_autogen/CMakeFiles/rebuild_cache.dir
-/home/alseuser/Escritorio/PROYECTO_CORRECTO/Proyect_ALSE/build/proyecto_ALSE_gui_autogen/CMakeFiles/proyecto_ALSE_gui.dir
-/home/alseuser/Escritorio/PROYECTO_CORRECTO/Proyect_ALSE/build/proyecto_ALSE_gui_autogen/CMakeFiles/edit_cache.dir
-/home/alseuser/Escritorio/PROYECTO_CORRECTO/Proyect_ALSE/build/proyecto_ALSE_gui_autogen/CMakeFiles/proyecto_ALSE_gui_autogen.dir
