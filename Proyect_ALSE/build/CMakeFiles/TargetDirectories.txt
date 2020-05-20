@@ -1,0 +1,4 @@
+/home/alseuser/Descargas/Proyect_ALSE_final/Proyect_ALSE/build/CMakeFiles/rebuild_cache.dir
+/home/alseuser/Descargas/Proyect_ALSE_final/Proyect_ALSE/build/CMakeFiles/proyecto_ALSE_gui.dir
+/home/alseuser/Descargas/Proyect_ALSE_final/Proyect_ALSE/build/CMakeFiles/edit_cache.dir
+/home/alseuser/Descargas/Proyect_ALSE_final/Proyect_ALSE/build/CMakeFiles/proyecto_ALSE_gui_autogen.dir
