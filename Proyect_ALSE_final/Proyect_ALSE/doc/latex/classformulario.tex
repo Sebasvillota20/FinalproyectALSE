@@ -1,0 +1,87 @@
+\hypertarget{classformulario}{}\section{formulario Class Reference}
+\label{classformulario}\index{formulario@{formulario}}
+
+
+En esta clase se implementan los métodos usados en la ventana llamada formulario, donde se muestra información del usuario como su edad y el usuario con el que se registró, además, se registran los pacientes de los que se obtiene la información socio económica. luego, se llama la ventana \hyperlink{classmain__app}{main\+\_\+app} en la que se puede realizar la prueba de agilidad.  
+
+
+
+
+{\ttfamily \#include $<$formulario.\+h$>$}
+
+Inheritance diagram for formulario\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classformulario}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classformulario_abf79e0e6729ee886430517ab1159f03e}{recibo\+Datos} (string f, int d)
+\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classformulario_a61fdc702dd7c38a8090ed7b2da42d79c}\label{classformulario_a61fdc702dd7c38a8090ed7b2da42d79c}} 
+void {\bfseries enviar\+\_\+\+Datostiempo} (int prueba, double cedula\+\_\+paci)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classformulario_af34c9f3ab769a3ea16053537357a8eb2}{formulario} (Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\Hypertarget{classformulario_ace4314028085911340f58aa6cfcd24ee}\label{classformulario_ace4314028085911340f58aa6cfcd24ee}} 
+void {\bfseries set\+\_\+nombreU} (string nombre\+\_\+u)
+\item 
+\mbox{\Hypertarget{classformulario_a7dcb6cc9155cf10057554d16d399ed12}\label{classformulario_a7dcb6cc9155cf10057554d16d399ed12}} 
+string {\bfseries get\+\_\+nombreU} () const
+\item 
+\mbox{\Hypertarget{classformulario_a8978663040da6ee0a8f2b6add6c25618}\label{classformulario_a8978663040da6ee0a8f2b6add6c25618}} 
+void {\bfseries set\+\_\+edad} (int edad)
+\item 
+\mbox{\Hypertarget{classformulario_a885b709005659b381b5c94d3c1d48f85}\label{classformulario_a885b709005659b381b5c94d3c1d48f85}} 
+int {\bfseries get\+\_\+edad} () const
+\item 
+\mbox{\Hypertarget{classformulario_a26dc6e41c551eaafbfcfa8bec0e69cd6}\label{classformulario_a26dc6e41c551eaafbfcfa8bec0e69cd6}} 
+void {\bfseries set\+\_\+tiempoprueba} (int time\+\_\+pru)
+\item 
+\mbox{\Hypertarget{classformulario_ac78b4c701dd9da8ef7527d5eb69ef95c}\label{classformulario_ac78b4c701dd9da8ef7527d5eb69ef95c}} 
+int {\bfseries get\+\_\+tiempoprueba} () const
+\item 
+\hyperlink{classformulario_a226d2ab871b8816ab3ca146f66e053b4}{$\sim$formulario} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+En esta clase se implementan los métodos usados en la ventana llamada formulario, donde se muestra información del usuario como su edad y el usuario con el que se registró, además, se registran los pacientes de los que se obtiene la información socio económica. luego, se llama la ventana \hyperlink{classmain__app}{main\+\_\+app} en la que se puede realizar la prueba de agilidad. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classformulario_af34c9f3ab769a3ea16053537357a8eb2}\label{classformulario_af34c9f3ab769a3ea16053537357a8eb2}} 
+\index{formulario@{formulario}!formulario@{formulario}}
+\index{formulario@{formulario}!formulario@{formulario}}
+\subsubsection{\texorpdfstring{formulario()}{formulario()}}
+{\footnotesize\ttfamily formulario\+::formulario (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+En esta función se configuran las opciones que pueden salir en las Q\+Widgets llamadas Q\+Combo\+Box, correspondientes a la seleccion de la raza a la que pertenece el paciente o el genero de este. \mbox{\Hypertarget{classformulario_a226d2ab871b8816ab3ca146f66e053b4}\label{classformulario_a226d2ab871b8816ab3ca146f66e053b4}} 
+\index{formulario@{formulario}!````~formulario@{$\sim$formulario}}
+\index{````~formulario@{$\sim$formulario}!formulario@{formulario}}
+\subsubsection{\texorpdfstring{$\sim$formulario()}{~formulario()}}
+{\footnotesize\ttfamily formulario\+::$\sim$formulario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La funcion detructor nunca puede faltar en una clase, en este caso no ayuda a terminar todo proceso que tenga que ver con la interfaz gráfica de esta ventana. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classformulario_abf79e0e6729ee886430517ab1159f03e}\label{classformulario_abf79e0e6729ee886430517ab1159f03e}} 
+\index{formulario@{formulario}!recibo\+Datos@{recibo\+Datos}}
+\index{recibo\+Datos@{recibo\+Datos}!formulario@{formulario}}
+\subsubsection{\texorpdfstring{recibo\+Datos}{reciboDatos}}
+{\footnotesize\ttfamily void formulario\+::recibo\+Datos (\begin{DoxyParamCaption}\item[{string}]{f,  }\item[{int}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+En esta función se reciben el nombre y edad del usuario y se escriben en las Qlabel correspondientes de cada una. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/alseuser/\+Descargas/\+Proyect\+\_\+\+A\+L\+S\+E\+\_\+final/\+Proyect\+\_\+\+A\+L\+S\+E/formulario.\+h\item 
+/home/alseuser/\+Descargas/\+Proyect\+\_\+\+A\+L\+S\+E\+\_\+final/\+Proyect\+\_\+\+A\+L\+S\+E/build/proyecto\+\_\+\+A\+L\+S\+E\+\_\+gui\+\_\+autogen/\+E\+W\+I\+E\+G\+A46\+W\+W/moc\+\_\+formulario.\+cpp\item 
+/home/alseuser/\+Descargas/\+Proyect\+\_\+\+A\+L\+S\+E\+\_\+final/\+Proyect\+\_\+\+A\+L\+S\+E/formulario.\+cpp\end{DoxyCompactItemize}
